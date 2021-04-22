@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html land='rus'>
+<head>
+ 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="all.css" rel="stylesheet" type="text/css" />
+	<title>Правильное питание</title>
+	<meta name="description" content="Правильное питание" />
+	<meta name="keywords" content="Правильное питание" />
+</head>
+
+<body>
+
+<div style="margin:0px auto; max-width:960px;">
+<h1>Правильное питание на каждый день</h1>
+<p><b>Внимание!</b> Мы не даем никаких рекомендаций по правильному питанию.
+<p>Выберите, пожалуйста, следующие параметры:</p>
+<form action="/" method="post" name="f1">
+	<ul><li><b>Пол</b>: 
+		<input name='m' type='radio' value='fem' checked='checked' id='m2' /><label for='m2'>женский</label>&nbsp;&nbsp;
+		<input name='m' type='radio' value='male' id='m1' /><label for='m1'>мужской</label></li>
+	<li><b>Возраст</b>: 
+		<input name='a' type='radio' value='18' checked='checked' id='a1' /><label for='a1'>18-29</label>&nbsp;&nbsp;
+		<input name='a' type='radio' value='30' id='a2' /><label for='a2'>30-39</label>&nbsp;&nbsp;
+		<input name='a' type='radio' value='40' id='a3' /><label for='a3'>40-59</label>&nbsp;&nbsp;
+		<input name='a' type='radio' value='60' id='a4' /><label for='a4'>более 60 лет</label></li>
+	<li><b>Блюдо на завтрак, гм</b>:
+	<input type="number" min="0" max="1000" step="5" name="breakfest">
+        <select class="form-control" id="classSelect1" name="class1">
+            <option>Каша гречневая</option>
+            <option>Каша геркулесовая на воде8</option>
+            <option>Каша манная молочная</option>
+            <option>Каша овсяная на вoде</option>
+            <option>Запеканка творожная</option>
+        </select>
+	<li><b>Блюдо на обед, гм</b>:
+	<input type="number" min="0" max="1000" step="5" name="lunch">
+        <select class="form-control" id="classSelect2" name="class2">
+            <option>Борщ красный</option>
+            <option>Суп гороховый мясной</option>
+            <option>Уха</option>
+            <option>Щи вегетарианские с картофелем</option>
+            <option>Овощное рагу</option>
+			<option>Голубцы овощные</option>
+			<option>Пельмени со сметаной</option>
+        </select>
+	<li><b>Блюдо на ужин, гм</b>:
+	<input type="number" min="0" max="1000" step="5" name="night">
+        <select class="form-control" id="classSelect3" name="class3">
+            <option>Рыбный стейк</option>
+            <option>Каша гречневая</option>
+            <option>Макароны отварные</option>
+            <option>Картофель жареный</option>
+            <option>Винегрет</option>
+        </select>
+	</div>
+    <center><button type="submit" class="btn btn-primary">Расчитать</button><center>
+	<div>
+    </form>
+                    
+</div>
+</body>
+</html>
